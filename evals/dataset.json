@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "query": "Hi, I want to check my orders. Customer ID: C1001",
+    "expected_intent": "order_status",
+    "customer_id": "C1001",
+    "follow_up_context": {}
+  },
+  {
+    "id": 2,
+    "query": "Where is my order O1002?",
+    "expected_intent": "order_status",
+    "customer_id": "C1001",
+    "follow_up_context": {}
+  },
+  {
+    "id": 3,
+    "query": "Can you check the tracking info for my shoe order?",
+    "expected_intent": "order_status",
+    "customer_id": "C1001",
+    "follow_up_context": {"order_id": "O1001"}
+  },
+  {
+    "id": 4,
+    "query": "Is my cancelled order O1003 refunded yet?",
+    "expected_intent": "order_status",
+    "customer_id": "C1002",
+    "follow_up_context": {}
+  },
+  {
+    "id": 5,
+    "query": "Track my shipment",
+    "expected_intent": "order_status",
+    "customer_id": "C1001",
+    "follow_up_context": {"order_id": "O1002"}
+  },
+  {
+    "id": 6,
+    "query": "Do you have the Leather Jacket in stock?",
+    "expected_intent": "product_query",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 7,
+    "query": "How much does the Wireless Headphones cost?",
+    "expected_intent": "product_query",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 8,
+    "query": "Is the Smartwatch Series 5 currently available?",
+    "expected_intent": "product_query",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 9,
+    "query": "What's the rating for the Yoga Mat Pro?",
+    "expected_intent": "product_query",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 10,
+    "query": "Do you carry any blenders?",
+    "expected_intent": "product_query",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 11,
+    "query": "Can I return it?",
+    "expected_intent": "return_request",
+    "customer_id": "C1001",
+    "follow_up_context": {"order_id": "O1002"}
+  },
+  {
+    "id": 12,
+    "query": "I want to return my order O1002",
+    "expected_intent": "return_request",
+    "customer_id": "C1001",
+    "follow_up_context": {}
+  },
+  {
+    "id": 13,
+    "query": "What is the status of my return for order O1003?",
+    "expected_intent": "return_request",
+    "customer_id": "C1002",
+    "follow_up_context": {}
+  },
+  {
+    "id": 14,
+    "query": "How long will my refund take?",
+    "expected_intent": "return_request",
+    "customer_id": "C1001",
+    "follow_up_context": {"order_id": "O1002"}
+  },
+  {
+    "id": 15,
+    "query": "Can I get a return label for my shoes?",
+    "expected_intent": "return_request",
+    "customer_id": "C1001",
+    "follow_up_context": {"order_id": "O1001"}
+  },
+  {
+    "id": 16,
+    "query": "What products do you recommend for me?",
+    "expected_intent": "recommendation",
+    "customer_id": "C1001",
+    "follow_up_context": {}
+  },
+  {
+    "id": 17,
+    "query": "Suggest some top-rated items under $100",
+    "expected_intent": "recommendation",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 18,
+    "query": "Do you have any clothing recommendations?",
+    "expected_intent": "recommendation",
+    "customer_id": "C1001",
+    "follow_up_context": {}
+  },
+  {
+    "id": 19,
+    "query": "Show me the best products in electronics",
+    "expected_intent": "recommendation",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 20,
+    "query": "What's popular in your store right now?",
+    "expected_intent": "recommendation",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 21,
+    "query": "Hello there! How are you?",
+    "expected_intent": "unknown",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 22,
+    "query": "What is the weather today?",
+    "expected_intent": "unknown",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 23,
+    "query": "Tell me a joke",
+    "expected_intent": "unknown",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 24,
+    "query": "Speak to a human representative",
+    "expected_intent": "unknown",
+    "customer_id": "",
+    "follow_up_context": {}
+  },
+  {
+    "id": 25,
+    "query": "Can you help me with a password reset?",
+    "expected_intent": "unknown",
+    "customer_id": "",
+    "follow_up_context": {}
+  }
+]

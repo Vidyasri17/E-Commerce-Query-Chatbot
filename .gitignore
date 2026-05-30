@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+ecommerce.db
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# System generated and IDE configurations
+.idea/
+.vscode/
+.system_generated/
+.gemini/
