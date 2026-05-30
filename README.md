@@ -87,7 +87,7 @@ erDiagram
 
     customers ||--o{ orders : places
     products ||--o{ orders : contains
-    orders ||--o? returns : "returns"
+    orders ||--o| returns : "returns"
 ```
 
 ---
